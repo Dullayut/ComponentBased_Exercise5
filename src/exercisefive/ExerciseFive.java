@@ -32,6 +32,8 @@ public class ExerciseFive {
             System.out.print("Enter Score ");
             football = sc.nextLine();
         }
+        MySource.removePropertyChangeListener(list1);
+        MySource.removePropertyChangeListener(list2);
     }
     
 }
